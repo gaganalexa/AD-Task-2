@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href=https://github.com/gaganalexa/>">
+  <a href=https://github.com/gaganalexa>
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/amg_logo.png" alt="Nyebe" width="130" height="100">
   </a>
