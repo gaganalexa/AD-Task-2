@@ -21,6 +21,33 @@
         </nav>
     </header>
 
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="pages/destinations/index.php">
+          <div class="image-container">
+            <img src="assets/img/destinations.png" alt="Destination">
+            <div class="overlay-text">Destinations</div>
+          </div>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="pages/guides/index.php">
+            <div class="image-container">
+              <img src="assets/img/guides.png" alt="Guides">
+              <div class="overlay-text">Guides</div>
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="pages/services/index.php">
+            <div class="image-container">
+              <img src="assets/img/services.png" alt="Services">
+                <div class="overlay-text">Services</div>
+                </div>
+          </a>
+        </div>
+    </div>
+
     <?php include 'inc/footer.php'; ?>
 </body>
 </html>
