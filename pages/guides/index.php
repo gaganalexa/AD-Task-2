@@ -21,6 +21,20 @@
         </nav>
     </header>
 
+    <div class="container">
+        <section class="section">
+            <h2>Meet Our Travel Guides</h2>
+            <?php
+                require_once '../../inc/data.php';
+                require_once '../../inc/functions.php';
+
+                foreach ($guides as $name => $details) {
+                    displayGuide($name, $details);
+                }
+            ?>
+        </section>
+    </div>
+
     <?php include '../../inc/footer.php'; ?>
 </body>
 </html>
