@@ -1,0 +1,204 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('../img/indexbg.png');
+    color: #333;
+}
+
+header {
+    background-color: #00458100;
+    color: white;
+    padding: 0.5em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #9594947e;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 0em 2em 3em 2em;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 2em;
+}
+
+.section {
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+}
+
+.section h2 {
+    color: #004481;
+    border-bottom: 2px solid #004481;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.image-container p {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.guide-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.guide-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1em;
+    object-fit: cover;
+}
+
+.service-item {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.service-item i {
+    font-size: 2em; /* Example icon size */
+    color: #004481;
+}
+
+.tips-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #33333300;
+    color: white;
+}
+
+nav a {
+    display: block; /* Make links fill the button area */
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #9594947e;
+    border-radius: 5px;
+}
+
+/* Style for the "TRAVEL WITH EASE" heading animation */
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 0.8s ease-out 0.2s forwards;
+}
+
+/* Style for the description animation */
+.hero p {
+    font-size: 1.2em;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 0.8s ease-out 0.4s forwards;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-container .grid-item {
+    position: relative;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slideUp 0.6s ease-out 0.6s forwards;
+}
+
+.grid-container:hover .grid-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.404);
+    transform: translateY(-10px) !important;
+    will-change: transform, box-shadow;
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+}
+
+
+/* Keyframes for the slide-up animation */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(var(--slide-distance, 30px));
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
