@@ -19,7 +19,11 @@
             </ul>
         </nav>
     </header>
-
+    <div class="container">
+      <section class="hero">
+        <h1>TRAVEL WITH EASE</h1>
+        <p>TRAVEL WITH PASSION, WITH AMG TOURS</p>
+      </section>
     <div class="grid-container">
       <div class="grid-item">
         <a href="pages/destinations/index.php">
