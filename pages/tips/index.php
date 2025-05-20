@@ -20,5 +20,7 @@
             </ul>
         </nav>
     </header>
+
+    <?php include '../../inc/footer.php'; ?>
 </body>
 </html>
