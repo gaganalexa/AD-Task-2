@@ -21,6 +21,23 @@
         </nav>
     </header>
 
+    <div class="container">
+        <section class="section">
+            <h2>Welcome to Our Travel Tips</h2>
+            <ul class="tips-list">
+                <?php
+                    require_once '../../inc/data.php';
+                    require_once '../../inc/functions.php';
+
+                    foreach ($tips as $tip) {
+                        displayTip($tip);
+                    }
+                ?>
+            </ul>
+        </section>
+    </div>
+
+
     <?php include '../../inc/footer.php'; ?>
 </body>
 </html>
