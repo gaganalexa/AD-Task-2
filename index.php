@@ -19,5 +19,8 @@
                 <li><a href="pages/tips/index.php">Tips</a></li>
             </ul>
         </nav>
+    </header>
+
+    <?php include 'inc/footer.php'; ?>
 </body>
 </html>
