@@ -21,6 +21,20 @@
         </nav>
     </header>
 
+    <div class="container">
+        <section class="section">
+            <h2>Destinations</h2>
+            <?php
+                require_once '../../inc/data.php';
+                require_once '../../inc/functions.php';
+
+                foreach ($destinations as $dest) {
+                    displayDestination($dest);
+                }
+            ?>
+        </section>
+    </div>
+
     <?php include '../../inc/footer.php'; ?>
 </body>
 </html>
