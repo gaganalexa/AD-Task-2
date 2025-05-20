@@ -104,40 +104,72 @@ Description of the project in details.
 10. File Structure to follow below.
 
 ```
-AD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ name.css
-|   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ name.js
-└─ components
-|   └─ name.component.php
-|   └─ templates
-|      └─ name.component.php
-└─ handlers
-|   └─ name.handler.php
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ name.css
-|     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ name.js
-|     └─ index.php
-└─ utils
-|   └─ name.utils.php
-└─ vendor
-└─ .gitignore
-└─ bootstrap.php
-└─ composer.json
-└─ composer.lock
-└─ index.php
-└─ readme.md
-└─ router.php
+AD-Task-2
+AD-Task-2
+├── .php_tmp
+├── .qodo
+├── assets
+│   └── css
+│   │    └── style.css
+│   └── img
+│       ├── destinations.png
+│       ├── guides.png
+│       ├── indexbg.png
+│       └── services.png
+├── components
+│   └── componentGroup
+│       └── example.component.php
+│   └── templates
+│       └── example.component.php
+├── docs
+│   └── VS Code Profile ...
+├── handlers
+│   └── example.handler.php
+├── inc
+│   ├── data.php
+│   ├── footer.php
+│   └── functions.php
+├── pages
+│   ├── destinations
+│   │   ├── assets
+│   │   │   └── css
+│   │   │   │    └── style.css
+│   │   │   └── img
+│   │   │       ├── cape-town.png
+│   │   │       ├── kyoto.png
+│   │   │       └── paris.png
+│   │   └── index.php
+│   ├── guides
+│   │   ├── assets
+│   │   │   └── css
+│   │   │   │   └── style.css
+│   │   │   └── img
+│   │   │       ├── benjamin.png
+│   │   │       ├── chiaki.png
+│   │   │       └── daniel.png
+│   │   └── index.php
+│   ├── services
+│   │   ├── assets
+│   │   │   └── css
+│   │   │       └── style.css
+│   │   └── index.php
+│   └── tips
+│       └── assets
+│           └── css
+│               └── style.css
+│       └── index.php
+├── utils
+│   └── Example.utils.php
+├── .dockerignore
+├── .gitignore
+├── bootstrap.php
+├── compose.lock
+├── composer.sample.yaml
+├── composer.yaml
+├── Dockerfile
+├── index.php
+├── readme.md
+└── router.php
 ```
 > The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
 
