@@ -9,11 +9,11 @@
     <img src="./assets/img/amg_logo.png" alt="Nyebe" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">AMG Tours</h3>
+  <h3 align="center">AD-Task-2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Travel with passion
+  Applying fragmentation, arrays, function.
 </div>
 
 <br />
@@ -21,9 +21,9 @@
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AD-CI4-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=gaganalexa/AD-Task-2)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/443593d2-a49b-4deb-9e6c-bfa25506f1aa/project/c5f8357c-dfd0-4bfe-b7b2-0bb4457944c3.svg)](https://wakatime.com/badge/user/443593d2-a49b-4deb-9e6c-bfa25506f1aa/project/c5f8357c-dfd0-4bfe-b7b2-0bb4457944c3)
 
 ---
 
@@ -61,7 +61,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+This is a Travel tour guide made to showcase the following: fragmentation, function, and arrays.
 
 ### Key Components
 
@@ -78,12 +78,6 @@ Description of the project in details.
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-#### Framework/Library
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -179,7 +173,13 @@ AD-Task-2
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| destinations.png | This image serves as a banner or icon to represent the "destinations" section of the website, directing users to content related to travel locations. | www.canva.com |
+| guides.png | This image is probably used as a banner or icon for the "guides" section, indicating content about travel guides or expert recommendations. | www.canva.com |
+| indexbg.png | This image is the background image for the website's homepage (index.php), providing a visual foundation for the main landing page. | www.canva.com |
+| services.png | This image acts as a banner or icon for the "services" section, visually representing the various offerings or features of the website. | www.canva.com |
+| cape-town.png | Used within the "destinations" section, this image specifically showcases Cape Town, illustrating one of the featured travel destinations. | www.canva.com |
+| kyoto.png | This image is found in the "destinations" section and highlights Kyoto, serving as a visual representation of this specific destination. | www.canva.com |
+| paris.png | Located in the "destinations" section, this image depicts Paris, providing a visual reference for this popular travel spot. | www.canva.com |
+| benjamin.png | This image is featured in the "guides" section and represents a specific travel guide named Benjamin, perhaps showing their photo or an avatar. | www.canva.com |
+| chiaki.png | Found in the "guides" section, this image  represents a travel guide named Chiaki, serving as their visual identifier on the page. | www.canva.com |
+| daniel.png | Located within the "guides" section, this image represents a travel guide named Daniel, acting as their visual profile. | www.canva.com |
